@@ -1,0 +1,6 @@
+{
+  "builds": [
+    { "src": "my-app/public/**", "use": "@vercel/static" },
+    { "src": "my-app/*.php", "use": "@vercel/php" }
+  ]
+}
